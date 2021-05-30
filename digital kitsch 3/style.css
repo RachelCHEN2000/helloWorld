@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+}
+
+body {
+/* overflow:hidden; */
+
+  min-height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* span{
+  position: absolute;
+  background: url(hi100.png);
+  pointer-events: none;
+  transform: translate(-50%,-50%);
+  width:100px;
+  height:100px;
+  background-size: cover;
+  animation:animate 2s linear infinite;
+}
+
+@@keyframes animate {
+  0%
+  {
+    transform:translate(-50%,-50%);
+    opacity:1;
+    filter:hue-rotate(0deg);
+  }
+  100%
+  {
+    transform:translate(-50%,-1000%);
+    opacity:0;
+    filter:hue-rotate(720deg);
+} */
+
+canvas {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  margin: 0px auto 20px;
+  cursor: move;
+}
+
+.button {
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform:translateY(-50%) translateX(-50%);
+
+  background-color: green;
+  font-family: fantasy;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 20px;
+  border-width: 5px;
+  padding: 5px;
+  margin-top: 0;
+}
+
+#hi {
+  position: relative;
+  /* z-index: 1; */
+  /* left:100px;
+  width:20px; */
+    left:28%;
+}
+/*
+#money {
+    margin-top: 100px;
+} */
+
+#policeman{
+  position: relative;
+  left:17%;
+}
+
+#lgbtq{
+  /* background: url('lgbtq.gif') no-repeat left top;
+  background: url('lgbtq.gif') no-repeat right top; */
+  margin-top: 200px;
+  padding-left:105px;
+}
